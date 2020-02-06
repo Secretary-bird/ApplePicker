@@ -197,9 +197,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   applePrefab: {fileID: 894921339911482903, guid: 05039d325b6fac04bb4c1580031fd9d1,
     type: 3}
-  speed: 1
-  edge: 10
-  movementRandom: 0.1
+  speed: 10
+  edge: 21
+  movementRandom: 0.02
   appleDrops: 1
 --- !u!1001 &1192844539892354270
 PrefabInstance:
