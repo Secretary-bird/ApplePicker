@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 546800055944416064}
   - component: {fileID: 9013013967074253567}
   - component: {fileID: 343306303629906320}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Apple Leaf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,7 +102,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1297297340569145532}
-  m_Layer: 0
+  - component: {fileID: -1850453854006746315}
+  m_Layer: 10
   m_Name: Apple
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126,6 +127,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &-1850453854006746315
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894921339911482903}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &8298329146252285507
 GameObject:
   m_ObjectHideFlags: 0
@@ -138,7 +155,7 @@ GameObject:
   - component: {fileID: 3612533585643701614}
   - component: {fileID: 5172557679888122280}
   - component: {fileID: 5841283912387152636}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Apple Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -230,7 +247,7 @@ GameObject:
   - component: {fileID: 3604312466622581616}
   - component: {fileID: 3045212539817502906}
   - component: {fileID: 3405896347515253949}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Apple Stem
   m_TagString: Untagged
   m_Icon: {fileID: 0}

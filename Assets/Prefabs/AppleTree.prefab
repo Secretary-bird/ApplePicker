@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1192844540218951865}
   - component: {fileID: 1192844540218951862}
   - component: {fileID: 1192844540218951863}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Trunk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,7 +102,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1192844540915297903}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Foliage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -143,7 +143,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1192844541474838073}
   - component: {fileID: 1187541007499025842}
-  m_Layer: 0
+  - component: {fileID: 6042819550505325456}
+  m_Layer: 9
   m_Name: AppleTree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,10 +179,28 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6042819550505325456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192844541474838070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8925f8eabfa897f46a1a67e9094d4404, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  applePrefab: {fileID: 894921339911482903, guid: 05039d325b6fac04bb4c1580031fd9d1,
+    type: 3}
+  speed: 1
+  edge: 10
+  movementRandom: 0.1
+  appleDrops: 1
 --- !u!1001 &1192844539892354270
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -249,6 +268,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Leaves (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4494615378538685134, guid: 83e9849ad4b86bd4895be09d0428f9d6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83e9849ad4b86bd4895be09d0428f9d6, type: 3}
 --- !u!4 &3301730350513666254 stripped
@@ -273,6 +297,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Apple prop (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6731782671953735978, guid: becf23b980069bd468b14081024dcb8c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8425618313579094962, guid: becf23b980069bd468b14081024dcb8c,
         type: 3}
@@ -404,6 +433,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Leaves (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4494615378538685134, guid: 83e9849ad4b86bd4895be09d0428f9d6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83e9849ad4b86bd4895be09d0428f9d6, type: 3}
 --- !u!4 &3301730350081704845 stripped
@@ -428,6 +462,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Apple prop (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6731782671953735978, guid: becf23b980069bd468b14081024dcb8c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8425618313579094962, guid: becf23b980069bd468b14081024dcb8c,
         type: 3}
@@ -559,6 +598,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Leaves (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4494615378538685134, guid: 83e9849ad4b86bd4895be09d0428f9d6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83e9849ad4b86bd4895be09d0428f9d6, type: 3}
 --- !u!4 &3301730350066986298 stripped
@@ -633,6 +677,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Leaves (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4494615378538685134, guid: 83e9849ad4b86bd4895be09d0428f9d6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83e9849ad4b86bd4895be09d0428f9d6, type: 3}
@@ -709,6 +758,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Leaves (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4494615378538685134, guid: 83e9849ad4b86bd4895be09d0428f9d6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83e9849ad4b86bd4895be09d0428f9d6, type: 3}
 --- !u!4 &3301730351364147489 stripped
@@ -784,6 +838,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Leaves (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4494615378538685134, guid: 83e9849ad4b86bd4895be09d0428f9d6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83e9849ad4b86bd4895be09d0428f9d6, type: 3}
 --- !u!4 &3301730351059662244 stripped
@@ -808,6 +867,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Apple prop
+      objectReference: {fileID: 0}
+    - target: {fileID: 6731782671953735978, guid: becf23b980069bd468b14081024dcb8c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8425618313579094962, guid: becf23b980069bd468b14081024dcb8c,
         type: 3}
@@ -938,6 +1002,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Leaves
+      objectReference: {fileID: 0}
+    - target: {fileID: 4494615378538685134, guid: 83e9849ad4b86bd4895be09d0428f9d6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83e9849ad4b86bd4895be09d0428f9d6, type: 3}
